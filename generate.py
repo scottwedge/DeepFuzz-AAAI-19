@@ -53,7 +53,7 @@ print('Max sequence length for outputs:', max_decoder_seq_length)
 input_token_index = dict(
     [(char, i) for i, char in enumerate(input_characters)])
 target_token_index = dict(
-    [(char, i) for i, char in enumerate(target_characqaters)])
+    [(char, i) for i, char in enumerate(target_characters)])
 
 encoder_input_data = np.zeros(
     (len(input_texts), max_encoder_seq_length, num_encoder_tokens),
